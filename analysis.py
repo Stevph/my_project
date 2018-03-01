@@ -7,4 +7,4 @@ Created on Thu Mar  1 10:00:39 2018
 
 import pandas as pd
 
-oceania = pd.read_csv('data/gapminder_gdp_oceania.csv')
+oceania = pd.read_csv('data/gapminder_gdp_oceania.csv', index_col = 'country')
